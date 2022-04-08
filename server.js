@@ -182,7 +182,7 @@ else
             reviews:{"$push":"$reviews"}        
           }
       },
-      {"$sort":{"avgReviews":1}}],(err,doc)=>
+      {"$sort":{"avgRating":1}}],(err,doc)=>
     {
         if(err)
         {
